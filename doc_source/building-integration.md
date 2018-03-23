@@ -3,15 +3,15 @@
 ## Amazon Connect Streams<a name="streams"></a>
 A browser-based contact center integration API, available on [Git](https://github.com/aws/amazon-connect-streams)\. 
 
-The Amazon Connect Streams API \(Streams\) gives you the power to integrate your existing web applications with Amazon Connect\. Streams lets you embed the Contact Control Panel \(CCP\) UI components into your page, and\/or handle agent and contact state events directly giving you the power to control agent and contact state through an object oriented event driven interface\. You can use the built in interface or build your own from scratch: Streams gives you the choice\.
-+ When using Streams API, you will need to [whitelist](https://github.com/awsdocs/amazon-connect-admin-guide/blob/master/doc_source/amazon-connect-instance.md#app-integration) your domain URL\.
+The Amazon Connect Streams API \(Streams\) gives you the power to integrate your existing web applications with Amazon Connect\. The Streams API lets you embed the Contact Control Panel \(CCP\) UI components into your page, and\/or handle agent and contact state events directly, giving you the power to control agent and contact state through an object oriented, event driven interface\. You can use the built in interface, or build your own from scratch: Streams gives you the choice\.
++ When using the Streams API, you need to [whitelist](https://github.com/awsdocs/amazon-connect-admin-guide/blob/master/doc_source/amazon-connect-instance.md#app-integration) your domain URL\.
 
 ## Data Streaming<a name="datastreaming"></a>
-You can export Contact Trace Records (\CTRs\) and agent events from Amazon Connect in order to perform analysis on your data\. This utilizes [Amazon Kinesis](https://aws.amazon.com/documentation/kinesis/)\.
+You can export Contact Trace Records (\CTRs\) and agent events from Amazon Connect in order to perform analysis on your data\. This utilizes [Amazon Kinesis](https://aws.amazon.com/documentation/kinesis/)\. Data streaming is not enabled by default when you create an instance. To enable data streaming for your instance, see [Configuring Your Amazon Connect Instance](https://github.com/awsdocs/amazon-connect-admin-guide/blob/master/doc_source/amazon-connect-instance.md#dataexporting).
 
 ### Contact Trace Records \(CTRs\)<a name="ctr"></a>
-+ Use an existing manually provisioned Amazon Kinesis Stream or Amazon Kinesis Firehose\.
-+ Launch the [Data Streaming](https://aws.amazon.com/quickstart/connect/data-streaming/) Quick Start or include this with your CloudFormation template as a [nested template](cloudformation.md#topics)\.
++ Use an existing, manually provisioned Amazon Kinesis Stream or Amazon Kinesis Firehose\.
++ Launch the [Data Streaming](https://aws.amazon.com/quickstart/connect/data-streaming/) Quick Start, or include this with your CloudFormation template as a [nested template](cloudformation.md#topics)\.
 
 ### Agent Events<a name="agentevents"></a>
 + Use your existing Amazon Kinesis Stream from the list below, or create a new one\.
