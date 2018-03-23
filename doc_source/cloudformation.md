@@ -4,18 +4,18 @@ Amazon Connect integrations can be packaged as consumable artifacts using AWS Cl
 
 ## What is CloudFormation?<a name="whatis"></a>
 
-AWS CloudFormation is a service that helps you model and set up your Amazon Web Services resources so that you can spend less time managing those resources and more time focusing on your applications that run in AWS\. For more information, please review the [documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html)\.
+AWS CloudFormation is a service that helps you model and set up your Amazon Web Services (AWS) resources so that you can spend less time managing those resources and more time focusing on your applications that run in AWS\. For more information about CloudFormation, please review the [documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html)\.
 
 ## Where do I publish my integration?<a name="channels"></a>
 
-Because Amazon Connect integrations can be complex, there are multiple avenues to publish your integration. The following table identifies these channels and provides a brief description for each. A typical integration, may consist of a Marketplace listing where an AMI or SaaS offering can be purchased, a Quick Start, for additional dependant services needed for the integration, and a Solution Bundle that comprises the Marketplace and Quick Start as well as a Solution Package that includes additional services\.
+Because Amazon Connect integrations can be complex, there are multiple avenues to publish your integration. The following table identifies these channels and provides a brief description for each. A typical integration may consist of a Marketplace listing where an AMI or SaaS offering can be purchased, a Quick Start for additional dependant services needed for the integration, and a Solution Bundle that comprises the Marketplace and Quick Start as well as a Solution Package that includes additional services\.
 
 
 | Channel | Description | 
 | --- | --- | 
 |  `AWS Marketplace`  |  Provides a new sales channel for ISVs and Consulting Partners to sell their solutions to AWS customers\.  | 
 |  `AWS Quick Starts`  |  Built by AWS solutions architects and partners to help you deploy popular solutions on AWS, based on AWS best practices for security and high availability\.  | 
-|  `AWS Solution Space`  |  Discover scalable and secure solutions that will empower you to achieve your business needs with Amazon Web Services \(AWS\) and AWS Partner Network \(APN\) Partners that have attained AWS Competency designations\.  | 
+|  `AWS Solution Space`  |  Discover scalable and secure solutions that will empower you to achieve your business needs with AWS and AWS Partner Network \(APN\) Partners that have attained AWS Competency designations\.  | 
 
 ## Selling on Marketplace<a name="marketplace"></a>
 
