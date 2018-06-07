@@ -8,14 +8,14 @@ AWS CloudFormation is a service that helps you model and set up your Amazon Web 
 
 ## Where do I publish my integration?<a name="channels"></a>
 
-Because Amazon Connect integrations can be complex, there are multiple avenues to publish your integration. The following table identifies these channels and provides a brief description for each. A typical integration may consist of a Marketplace listing where an AMI or SaaS offering can be purchased, a Quick Start for additional dependant services needed for the integration, and a Solution Bundle that comprises the Marketplace and Quick Start as well as a Solution Package that includes additional services\.
+Because Amazon Connect integrations can be complex, there are multiple avenues to publish your integration. The following table identifies these channels and provides a brief description for each. A typical integration may consist of a Marketplace listing where an AMI or SaaS offering can be purchased, a Quick Start for additional dependant services needed for the integration, and a Solution Bundle that comprises the Marketplace and Quick Start as well as a Solution Package that includes additional services\. A comprehensive explanation is available through the  [Amazon Connect ISV Partner On-Boarding Guide](templates/Amazon_Connect_ISV_Partner_Onboarding_v1.0.0.pptx) PowerPoint deck\.
 
 
-| Channel | Description | 
-| --- | --- | 
-|  `AWS Marketplace`  |  Provides a new sales channel for ISVs and Consulting Partners to sell their solutions to AWS customers\.  | 
-|  `AWS Quick Starts`  |  Built by AWS solutions architects and partners to help you deploy popular solutions on AWS, based on AWS best practices for security and high availability\.  | 
-|  `AWS Solution Space`  |  Discover scalable and secure solutions that will empower you to achieve your business needs with AWS and AWS Partner Network \(APN\) Partners that have attained AWS Competency designations\.  | 
+| Channel | Description |
+| --- | --- |
+|  `AWS Marketplace`  |  Provides a new sales channel for ISVs and Consulting Partners to sell their solutions to AWS customers\.  |
+|  `AWS Quick Starts`  |  Built by AWS solutions architects and partners to help you deploy popular solutions on AWS, based on AWS best practices for security and high availability\.  |
+|  `AWS Solution Space`  |  Discover scalable and secure solutions that will empower you to achieve your business needs with AWS and AWS Partner Network \(APN\) Partners that have attained AWS Competency designations\.  |
 
 ## Selling on Marketplace<a name="marketplace"></a>
 
@@ -65,7 +65,7 @@ If you are new to Git or simply need a refresher, please review the list of [com
      ```
      git submodule update --recursive
      ```
-  
+
   - Update submodules to the latest version:
 
      ```
@@ -81,19 +81,19 @@ If you are new to Git or simply need a refresher, please review the list of [com
    ```
    git clone git@github.com:aws-quickstart/quickstart-examples.git
    ```
-   
+
 1. Clone [connect-integration-examples](https://github.com/aws-quickstart/connect-integration-examples)
 
    ```
    git clone git@github.com:aws-quickstart/connect-integration-examples.git
    ```
-   
+
 1. Clone [taskcat](https://github.com/aws-quickstart/taskcat)
 
    ```
    git clone git@github.com:aws-quickstart/taskcat.git
    ```
-   
+
 1. Using **quickstart-examples** and **connect-integration-examples** as a reference, begin building your Quick Start
 1. Familiarize yourself with the [testing with TaskCat](https://aws-quickstart.github.io/test-debug.html#autotest)
 1. Once you have tested your Quick Start and validated that there are no CloudFormation validation errors and that all integration components are working without error, you are ready to begin [validation](technical-validation.md)\.
