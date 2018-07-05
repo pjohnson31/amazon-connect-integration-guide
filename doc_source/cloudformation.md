@@ -96,6 +96,7 @@ If you are new to Git or simply need a refresher, please review the list of [com
 
 1. Using **quickstart-examples** and **connect-integration-examples** as a reference, begin building your Quick Start
 1. Familiarize yourself with the [testing with TaskCat](https://aws-quickstart.github.io/test-debug.html#autotest)
+1. Review the Quick Start Support [reference](templates/quickstart_support_ppt.pptx)
 1. Once you have tested your Quick Start and validated that there are no CloudFormation validation errors and that all integration components are working without error, you are ready to begin [validation](technical-validation.md)\.
 
 ### Quick Reference<a name="reference"></a>
